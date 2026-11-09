@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="VioletNex Global — Empowering People. Connecting Ideas. Building the Future.">
+<title>VioletNex Global | Empowering the Future</title>
+<style>
+:root{--purple:#170b32;--purple2:#32105c;--gold:#e7c56b;--cream:#fff8e8;--muted:#c9bedb}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--purple);color:var(--cream);font-family:Inter,Segoe UI,Arial,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at 75% 18%,#54248c66,transparent 36%),radial-gradient(ellipse at 10% 80%,#28145188,transparent 40%);z-index:-1}
+header{display:flex;justify-content:space-between;align-items:center;padding:24px 7%;border-bottom:1px solid #ffffff16;position:sticky;top:0;background:#170b32e8;backdrop-filter:blur(14px);z-index:10}
+.brand{font-weight:800;letter-spacing:.4px;font-size:1.25rem}.brand span{color:var(--gold)}nav{display:flex;gap:25px}nav a{color:#eee5ff;text-decoration:none;font-size:.9rem}nav a:hover{color:var(--gold)}
+.hero{min-height:86vh;padding:75px 7%;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:35px}
+.eyebrow{color:var(--gold);letter-spacing:3px;text-transform:uppercase;font-size:.76rem;font-weight:700}
+h1{font-size:clamp(2.8rem,6vw,5.6rem);line-height:1.03;margin:20px 0;letter-spacing:-2px}h1 span{color:var(--gold)}
+.lead{font-size:1.08rem;color:var(--muted);line-height:1.8;max-width:570px}
+.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-block;padding:14px 22px;border-radius:30px;text-decoration:none;font-weight:700;border:1px solid var(--gold);color:var(--gold)}.btn.primary{background:linear-gradient(120deg,#e7c56b,#b78a35);color:#201039;border:0}
+.visual{height:480px;display:grid;place-items:center;position:relative}.orb{width:min(390px,78vw);aspect-ratio:1;border-radius:50%;position:relative;background:radial-gradient(circle at 32% 25%,#b28ae8,#6731a0 28%,#29104d 63%,#120722 76%);box-shadow:0 0 55px #9a58e866,inset -25px -25px 55px #080311;animation:float 6s ease-in-out infinite}
+.orb:before,.orb:after{content:"";position:absolute;border:1px solid #e7c56b99;border-radius:50%;inset:-13%;transform:rotate(-24deg) scaleY(.36)}.orb:after{transform:rotate(58deg) scaleY(.42);border-color:#cda8ff88}
+.orb .glow{position:absolute;inset:15%;border-radius:50%;background:radial-gradient(circle,#e8d7ff22,transparent 65%)}.orbtext{position:absolute;text-align:center;inset:0;display:grid;place-content:center;z-index:2;text-shadow:0 2px 15px #170b32}.orbtext strong{font-size:1.65rem;letter-spacing:2px}.orbtext small{color:var(--gold);letter-spacing:3px;margin-top:10px}
+@keyframes float{50%{transform:translateY(-12px)}}
+section{padding:80px 7%}.section-head{text-align:center;max-width:760px;margin:0 auto 45px}.section-head h2{font-size:clamp(2rem,4vw,3.2rem);margin:12px 0}.section-head p{color:var(--muted);line-height:1.7}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{padding:28px;border:1px solid #e7c56b35;border-radius:20px;background:linear-gradient(145deg,#32165399,#1d0c37aa);transition:.25s}.card:hover{transform:translateY(-5px);border-color:#e7c56b99}.symbol{font-size:1.8rem;color:var(--gold)}.card h3{margin:15px 0 10px}.card p{color:var(--muted);line-height:1.7}
+.about{background:linear-gradient(90deg,#26104499,#170b3288);border-top:1px solid #ffffff12;border-bottom:1px solid #ffffff12}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.about h2{font-size:2.6rem}.about p{color:var(--muted);line-height:1.8}.founder{border:1px solid #e7c56b55;border-radius:24px;padding:34px;background:#2a1246;text-align:center}.founder .monogram{width:100px;height:100px;margin:0 auto 18px;border-radius:50%;display:grid;place-items:center;font-size:2rem;color:#24113a;background:linear-gradient(140deg,#f3dc95,#a77a2d);font-weight:800}
+footer{padding:35px 7%;border-top:1px solid #ffffff16;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;color:var(--muted)}footer b{color:var(--gold)}
+@media(max-width:800px){header{padding:18px 5%;flex-wrap:wrap;gap:15px}nav{gap:13px;flex-wrap:wrap}nav a{font-size:.82rem}.hero{grid-template-columns:1fr;padding-top:55px;text-align:center}.lead{margin:auto}.actions{justify-content:center}.visual{height:350px}.cards{grid-template-columns:1fr}.about-grid{grid-template-columns:1fr}.orb{width:290px}section{padding:60px 5%}}
+</style>
+</head>
+<body>
+<header><div class="brand">Violet<span>Nex</span> Global</div><nav><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#academy">Academy</a><a href="#community">Community</a><a href="#contact">Contact</a></nav></header>
+<main>
+<section class="hero" id="home"><div><div class="eyebrow">Digital services • Creativity • Empowerment</div><h1>Empowering People.<br><span>Connecting Ideas.</span><br>Building the Future.</h1><p class="lead">VioletNex Global is a developing digital services and empowerment brand helping people transform ideas into professional digital solutions through creativity, technology, and digital skills.</p><div class="actions"><a class="btn primary" href="#services">Explore Our Services</a><a class="btn" href="#about">Discover VioletNex</a></div></div><div class="visual"><div class="orb"><div class="glow"></div><div class="orbtext"><strong>VIOLETNEX</strong><small>GLOBAL</small></div></div></div></section>
+<section id="services"><div class="section-head"><div class="eyebrow">What we’re building</div><h2>Digital solutions with purpose</h2><p>Practical creative and digital services designed to present ideas with clarity and professionalism.</p></div><div class="cards">
+<div class="card"><div class="symbol">✦</div><h3>Document Solutions</h3><p>Resume and CV writing, Microsoft Word formatting, document editing, and document preparation.</p></div>
+<div class="card"><div class="symbol">✧</div><h3>Creative Studio</h3><p>Graphic design and visual communication for personal brands, projects, and businesses.</p></div>
+<div class="card"><div class="symbol">◎</div><h3>Web Studio</h3><p>Modern website design and digital presence development for ideas and growing brands.</p></div>
+<div class="card"><div class="symbol">▤</div><h3>Presentation Studio</h3><p>Clear, polished PowerPoint presentations that help communicate ideas effectively.</p></div>
+<div class="card" id="academy"><div class="symbol">✺</div><h3>Digital Skills Academy</h3><p>A developing learning initiative focused on practical digital skills and creative growth.</p></div>
+<div class="card" id="community"><div class="symbol">⌘</div><h3>Ideas & Community</h3><p>A future-focused space for collaboration, sharing ideas, and exploring innovation.</p></div>
+</div></section>
+<section class="about" id="about"><div class="about-grid"><div><div class="eyebrow">Our direction</div><h2>Ideas today.<br><span style="color:var(--gold)">Possibilities tomorrow.</span></h2><p>VioletNex Global aims to grow from a digital services brand into a broader empowerment and technology initiative. We value creativity, learning, integrity, and meaningful collaboration.</p><p>Our academy, community, and innovation initiatives are currently developing.</p></div><div class="founder"><div class="monogram">DM</div><div class="eyebrow">Founder & Visionary Leader</div><h2 style="font-size:1.8rem;margin:12px">David Modestus</h2><p>Building VioletNex Global with a vision to empower people, connect ideas, and create opportunities through digital creativity.</p></div></div></section>
+<section id="contact"><div class="section-head"><div class="eyebrow">Let’s connect</div><h2>Have an idea to share?</h2><p>VioletNex Global is growing. Reach out to explore digital solutions or share a creative idea.</p><div class="actions" style="justify-content:center"><a class="btn primary" href="mailto:YOUR-EMAIL@example.com">Contact VioletNex</a></div><p style="font-size:.85rem">Replace YOUR-EMAIL@example.com with your official contact email before publishing.</p></div></section>
+</main><footer><div><b>VioletNex Global</b> — Empowering People. Connecting Ideas. Building the Future.</div><div>© 2026 VioletNex Global. All rights reserved.</div></footer>
+</body></html>
